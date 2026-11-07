@@ -11,7 +11,7 @@ h1 {
     width: 300px;
     padding: 50px;
     border: solid 2px black;
-    margin: auto;
+    margin: 0;
     text-align: center;
 }
 
@@ -24,4 +24,8 @@ a {
 }
 img {
     width: 200px;
+}
+.bio-container {
+    display: flex;
+    justify-content:center ;
 }
