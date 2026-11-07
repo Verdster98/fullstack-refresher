@@ -1,0 +1,27 @@
+body{
+    background-color: slategray;
+}
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.bio {
+    font-size: large;
+    width: 300px;
+    padding: 50px;
+    border: solid 2px black;
+    margin: auto;
+    text-align: center;
+}
+
+#contact-info {
+    color: beige;
+}
+
+a {
+    color: rebeccapurple;
+}
+img {
+    width: 200px;
+}
