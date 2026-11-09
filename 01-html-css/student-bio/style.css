@@ -8,8 +8,10 @@ h1 {
 
 .bio {
     font-size: large;
-    width: 300px;
-    padding: 50px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding: 20px;
     border: solid 2px black;
     margin: 0;
     text-align: center;
@@ -23,9 +25,21 @@ a {
     color: rebeccapurple;
 }
 img {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
 }
 .bio-container {
     display: flex;
     justify-content:center ;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .bio-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
