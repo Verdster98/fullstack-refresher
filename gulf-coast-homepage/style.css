@@ -1,0 +1,45 @@
+.tree {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 3px solid black;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.border {
+    border: 8px solid black;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .service-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .about-us{
+        flex-direction: column;
+    }
+}
+
+.site-footer {
+    padding: 20px;
+    border-top: 2px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
