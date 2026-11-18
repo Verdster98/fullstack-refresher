@@ -1,3 +1,28 @@
+main {
+    background-color: #3c6b40;
+}
+
+body{
+    background-color: #3c6b40;
+}
+
+h1 {
+    color: bisque;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: bisque;
+}
+
+#motto {
+    font-size: 30px;
+    font-family: fantasy;
+    color: bisque;
+}
+
 .men-img {
     width: 100%;
     max-width: 150px;
@@ -7,15 +32,50 @@
 #shop-img{
     width: 100%;
     max-width: 700px;
-    height: 400px;
+    height: auto;
 }
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(107, 81, 47);
 }
 
-section {
+#about-us {
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    border-top: solid 4px rgb(0, 0, 0);
+    border-bottom: solid 4px black;
+    text-align: center;
+    font-size: 30px;
+    color: bisque;
+}
+
+.logo {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+#menu-title {
+    text-align: center;
+    font-size: 32px;
+    color: bisque;
+}
+h3 {
+    color: bisque;
+}
+
+@media (max-width: 600px){
+    .menu {
+        grid-template-columns: 1fr;
+    }
 }
